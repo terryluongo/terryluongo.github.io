@@ -63,19 +63,6 @@ h1 {
   margin-left:auto;
  
 }
-@media only screen and (max-width: 600px) {
-  .typing-demo {
-    font-size: 4vw;
-    align-self: center;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #front {
-    background-image: url("portrait3.jpg");
-    background-position-x: 70%;
-  }
-}
 
 
 
@@ -128,23 +115,7 @@ box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.35);
   border-radius:12px;
   font-size:1.1em;
 }
-@media only screen and (max-width: 600px) {
-  .wrapper {
-    height: 45vh;
-  }
-  .typing-demo {
-    margin-top: 25vh;
-    font-size: 4vw;
-    align-self: center;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #text {
-    width: 90vw;
-    font-size: 3.5vw;
-  }
-}
+
 
 #frostedtyping {
   height:10vh;
@@ -300,4 +271,33 @@ align-self: center;
   margin: 0px;
   margin-bottom: 3px;
 }
+}
+
+@media only screen and (max-width: 600px) {
+  .typing-demo {
+    font-size: 4vw;
+    align-self: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #front {
+    background-image: url("portrait3.jpg");
+    background-position-x: 70%;
+  }
+  .wrapper {
+    height: 45vh;
+  }
+  .typing-demo {
+    margin-top: 25vh;
+    font-size: 4vw;
+    align-self: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #text {
+    width: 90vw;
+    font-size: 3.5vw;
+  }
 }
