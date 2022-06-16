@@ -290,10 +290,10 @@ align-self: center;
     height: auto;
   }
   .wrapper {
-    height: 40vh;
+    height: 30vh;
   }
   .typing-demo {
-    margin-top: 25vh;
+    margin-top: 15vh;
     font-size: 4vw;
     align-self: center;
     width: fit-content;
