@@ -285,7 +285,7 @@ align-self: center;
   }
   #front {
     background-image: url("portrait3.jpg");
-    background-position-x: 70%;
+    background-size: cover;
   }
   .wrapper {
     height: 45vh;
