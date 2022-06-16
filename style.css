@@ -176,6 +176,7 @@ box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.35);
   font-size:1.1em;
   text-decoration: dashed;
   color: black;
+  margin-bottom:5px;
 
 }
 
@@ -253,6 +254,7 @@ align-self: center;
 .popuplist {
   font-size: 65%;
   text-align: left;
+  height:15vh;overflow:scroll;
 }
 @media only screen and (max-width: 600px) {
 .popup {
@@ -263,12 +265,12 @@ align-self: center;
 .popuplist {
   font-size: 55%;
   padding-top: 0px;
+  margin-top:0px;
 }
 .tabletitle {
-  margin: 0px;
+  margin: 5px;
 }
 .tableline {
-  margin: 0px;
   margin-bottom: 3px;
 }
 }
