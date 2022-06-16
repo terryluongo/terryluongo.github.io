@@ -290,7 +290,7 @@ align-self: center;
     height: auto;
   }
   .wrapper {
-    height: 45vh;
+    height: 40vh;
   }
   .typing-demo {
     margin-top: 25vh;
@@ -303,5 +303,6 @@ align-self: center;
   #text {
     width: 90vw;
     font-size: 3.5vw;
+    align-self: center;
   }
 }
