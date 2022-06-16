@@ -285,7 +285,7 @@ align-self: center;
   }
   #front {
     background-image: url("portrait3.jpg");
-    background-size: cover;
+    background-size: 100%;
     width: 100vw;
     height: auto;
   }
