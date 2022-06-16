@@ -303,6 +303,7 @@ align-self: center;
   #text {
     width: 90vw;
     font-size: 3.5vw;
-    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
